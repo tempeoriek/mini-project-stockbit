@@ -29,14 +29,15 @@ const con = mysql.createConnection({
   password: 'testing', //INPUT YOUR PASSWORD
 });
 
-con.connect((err) => {
+//connect to mysql, uncomment this section to connect mysql
+/* con.connect((err) => {
   if(err){
     console.log('Error connecting to Db');
     return;
   }
   console.log(`\n\n\nServer successfully compiled on ${moment().format(`YYYY-MM-DDTHH:mm:ss.SSSZ`)} \nDatabase connection Success!\n\n\n\n\n`);
 });
-con.end();
+con.end(); */
 
 /*** FOR CREATE NEW ROUTES ***/
 require(`./routes`)(app);

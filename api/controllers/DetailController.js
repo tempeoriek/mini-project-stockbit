@@ -1,4 +1,5 @@
-const { key } = require("../../config/key");
+const { key } = require("../../config/key"),
+  EndpointController = require('./EndpointController');
 
 DetailController = {
   detail: async function (req, res) {
