@@ -31,5 +31,5 @@ jobs:
       with:
         app-name: 'stockbit-project'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_6772b02127a9403585a2c32dc1d6360c }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_c762ca00222d447386f762cf74b9d86e }}
         package: .
